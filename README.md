@@ -1,4 +1,4 @@
-# Create and Interact With a Local R-Squared Blockchain
+# Create and Interact With a Local R-Squared Blockchain (Docker Method)
 
 > Get grasp of the R-Squared blockchain and it's CLI to interact with it. This is a great resource for anyone looking to get started on building, testing or a general overview of the chain's functionality.
 
