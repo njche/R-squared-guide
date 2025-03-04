@@ -37,6 +37,11 @@ rpc-endpoint = 0.0.0.0:8090
 # Enable block production
 enable-stale-production = true
 
+# Enable all available plugins (excluding: delayed_node snapshot)
+plugins = witness account_history market_history api_helper_indexes grouped_orders content_cards custom_operations debug_witness
+
+# Unused plugins = delayed_node snapshot
+
 # ID of witness controlled by this node
 witness-id = "1.6.1"
 
@@ -46,6 +51,7 @@ private-key = ["RQRX6JaiMEZZ57Q75Xh3kVbJ4owX13p7f1kkV76B3xLNFuWHVbRSyZ","5KXbCDy
 # Empty seed nodes to prevent connecting to mainnet
 seed-nodes = []
 p2p-seed-nodes = []
+
 EOL
 ```
 > Keep the WIF private key below handy; we will use this multiple times later on.
